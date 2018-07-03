@@ -3,9 +3,9 @@ Rails.application.routes.draw do
   resources :users, only: [:index, :show]
   resources :songs, only: [:index, :show]
 
-  get '/:user_id/songs', to: 'user_song_data#index'
-  get '/:user_id/songs/:song_id', to: 'user_song_data#show'
-  patch '/:user_id/songs/:song_id/play', to: 'user_song_data#play'
-  patch '/:user_id/songs/:song_id/like', to: 'user_song_data#like'
-  patch '/:user_id/songs/:song_id/dislike', to: 'user_song_data#dislike'
+  get '/users/:user_id/songs', to: 'user_song_data#index'
+  get '/users/:user_id/songs/:song_id', to: 'user_song_data#show'
+  patch '/users/:user_id/songs/:song_id/play', to: 'user_song_data#play'
+  patch '/users/:user_id/songs/:song_id/like', to: 'user_song_data#like'
+  patch '/users/:user_id/songs/:song_id/dislike', to: 'user_song_data#dislike'
 end
