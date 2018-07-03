@@ -1,12 +1,20 @@
-{
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+
+song_data = {
   "songs": [
     {
       "id": 0,
       "title": "Johnny B. Goode",
       "singer": "Chuck Berry",
       "lyrics": "Deep down in Louisiana close to New Orleans\nWay back up in the woods among the evergreens\nThere stood a log cabin made of earth and wood\nWhere lived a country boy named Johnny B. Goode\nWho never ever learned to read or write so well\nBut he could play a guitar just like a-ringin' a bell\nGo go\nGo Johnny go go\nGo Johnny go go\nGo Johnny go go\nGo Johnny go go\nJohnny B. Goode\nHe used to carry his guitar in a gunny sack\nGo sit beneath the tree by the railroad track\nOh, the engineers would see him sitting in the shade\nStrumming with the rhythm that the drivers made\nPeople passing by they would stop and say\n\"Oh my what that little country boy could play\"\nGo go\nGo Johnny go go\nGo Johnny go go\nGo Johnny go go\nGo Johnny go go\nJohnny B. Goode\nHis mother told him \"someday you will be a man\nAnd you will be the leader of a big old band\nMany people coming from miles around\nTo hear you play your music when the sun go down\nMaybe someday your name will be in lights\nSaying \"Johnny B. Goode tonight\"\nGo go\nGo Johnny go\nGo go go Johnny go\nGo go go Johnny go\nGo go go Johnny go\nGo\nJohnny B. Goode",
-      "plays": 0,
-      "likes": 0,
+      "plays": 22,
+      "likes": 10,
       "dislikes": 0
     },
     {
@@ -14,25 +22,25 @@
       "title": "Your Song",
       "singer": "Elton John",
       "lyrics": "It's a little bit funny this feeling inside\nI'm not one of those who can easily hide, I\nDon't have much money but boy if I did\nI'd buy a big house where we both could live\nIf I was a sculptor, but then again no\nOr a man who makes potions in a traveling show\nOh I know it's not much but it's the best I can do\nMy gift is my song\nAnd this one's for you\nAnd you can tell everybody this is your song\nIt may be quite simple but now that it's done\nI hope you don't mind\nI hope you don't mind\nThat I put down in words\nHow wonderful life is while you're in the world\nI sat on the roof and kicked off the moss\nWell a few of the verses well they've got me quite cross\nBut the sun's been quite kind\nWhile I wrote this song\nIt's for people like you that\nKeep it turned on\nSo excuse me forgetting\nBut these things I do\nYou see I've forgotten\nIf they're green or they're blue\nAnyway, the thing is, what I really mean\nYours are the sweetest eyes I've ever seen\nAnd you can tell everybody this is your song\nIt may be quite simple but\nNow that it's done\nI hope you don't mind\nI hope you don't mind\nThat I put down in words\nHow wonderful life is while you're in the world\nI hope you don't mind\nI hope you don't mind\nThat I put down in words\nHow wonderful life is while you're in the world",
-      "plays": 0,
-      "likes": 0,
-      "dislikes": 0
+      "plays": 11,
+      "likes": 20,
+      "dislikes": 15
     },
     {
       "id": 2,
       "title": "Don't Stop Believing",
       "singer": "Journey",
       "lyrics": "Just a small town girl, living in a lonely world\nShe took the midnight train going anywhere\nJust a city boy, born and raised in South Detroit\nHe took the midnight train going anywhere\nA singer in a smoky room\nA smell of wine and cheap perfume\nFor a smile they can share the night\nIt goes on and on and on and on\n\nStrangers waiting up and down the boulevard\nTheir shadows searching in the night\nStreetlights, people, living just to find emotion\nHiding somewhere in the night\n\nWorking hard to get my fill\nEverybody wants a thrill\nPayin' anything to roll the dice\nJust one more time\nSome will win, some will lose\nSome were born to sing the blues\nOh, the movie never ends\nIt goes on and on and on and on\n\nStrangers waiting, up and down the boulevard\nTheir shadows searching in the night\nStreetlights, people, living just to find emotion\nHiding somewhere in the night\n\nDon't stop believing\nHold on to the feeling\nStreetlights people\nDon't stop believing\nHold on\nStreetlight people\nDon't stop believing\nHold on to the feeling\nStreetlights people",
-      "plays": 0,
+      "plays": 9,
       "likes": 0,
-      "dislikes": 0
+      "dislikes": 6
     },
     {
       "id": 3,
       "title": "Hotel California",
       "singer": "Eagles",
       "lyrics": "On a dark desert highway, cool wind in my hair\nWarm smell of colitas, rising up through the air\nUp ahead in the distance, I saw a shimmering light\nMy head grew heavy and my sight grew dim\nI had to stop for the night.\nThere she stood in the doorway;\nI heard the mission bell\nAnd I was thinking to myself\n'This could be heaven or this could be Hell'\nThen she lit up a candle and she showed me the way\nThere were voices down the corridor,\nI thought I heard them say\nWelcome to the Hotel California\nSuch a lovely place (such a lovely place)\nSuch a lovely face.\nPlenty of room at the Hotel California\nAny time of year (any time of year) you can find it here\nHer mind is Tiffany-twisted, she got the Mercedes bends\nShe got a lot of pretty, pretty boys, that she calls friends\nHow they dance in the courtyard, sweet summer sweat\nSome dance to remember, some dance to forget\nSo I called up the Captain,\n'Please bring me my wine'\nHe said, 'we haven't had that spirit here since nineteen sixty-nine'\nAnd still those voices are calling from far away,\nWake you up in the middle of the night\nJust to hear them say'\nWelcome to the Hotel California\nSuch a lovely place (such a lovely place)\nSuch a lovely face.\nThey livin' it up at the Hotel California\nWhat a nice surprise (what a nice surprise), bring your alibis\nMirrors on the ceiling,\nThe pink champagne on ice\nAnd she said, 'we are all just prisoners here, of our own device'\nAnd in the master's chambers,\nThey gathered for the feast\nThey stab it with their steely knives,\nBut they just can't kill the beast\nLast thing I remember, I was\nRunning for the door\nI had to find the passage back to the place I was before\n'Relax' said the night man,\n'We are programmed to receive.\nYou can check out any time you like,\nBut you can never leave!'\n",
-      "plays": 0,
+      "plays": 8,
       "likes": 0,
       "dislikes": 0
     },
@@ -41,7 +49,7 @@
       "title": "When You're Gone",
       "singer": "Avril Lavigne",
       "lyrics": "I always needed time on my own\nI never thought I'd\nNeed you there when I cry\nAnd the days feel like years when I'm alone\nAnd the bed where you lie\nIs made up on your side\nWhen you walk away\nI count the steps that you take\nDo you see how much I need you right now?\nWhen you're gone\nThe pieces of my heart are missin' you\nWhen you're gone\nThe face I came to know is missin', too\nWhen you're gone\nThe words I need to hear\nTo always get me through the day\nAnd make it okay\nI miss you\nI've never felt this way before\nEverything that I do\nReminds me of you\nAnd the clothes you left, they lie on the floor\nAnd they smell just like you\nI love the things that you do\nWhen you walk away\nI count the steps that you take\nDo you see how much I need you right now?\nWhen you're gone\nThe pieces of my heart are missin' you\nWhen you're gone\nThe face I came to know is missin', too\nWhen you're gone\nThe words I need to hear\nTo always get me through the day\nAnd make it okay\nI miss you\nWe were made for each other\nOut here forever\nI know we were\nYeah, yeah\nAnd all I ever wanted was for you to know\nEverything I do, I give my heart and soul\nI can hardly breathe; I need to feel you here with me\nYeah\nWhen you're gone\nThe pieces of my heart are missin' you\nWhen you're gone\nThe face I came to know is missin', too\nWhen you're gone\nThe words I need to hear\nWill always get me through the day\nAnd make it okay\nI miss you\n",
-      "plays": 0,
+      "plays": 1,
       "likes": 0,
       "dislikes": 0
     },
@@ -50,9 +58,9 @@
       "title": "Reflection",
       "singer": "Christina Aguilera",
       "lyrics": "Look at me you may think you see\nWho I really am but you'll never know me\nEvery day it's as if I play a part\nNow I see if I wear a mask\nI can fool the world but I cannot fool my heart\nWho is that girl I see staring straight back at me?\nWhen will my reflection show who I am inside?\nI am now in a world where I\nHave to hide my heart and what I believe in\nBut somehow I will show the world\nWhat's inside my heart and be loved for who I am\nWho is that girl I see staring straight back at me?\nWhy is my reflection someone I don't know?\nMust I pretend that I'm someone else for all time?\nWhen will my reflection show who I am inside?\nThere's a heart that must be free to fly\nThat burns with a need to know the reason why\nWhy must we all conceal what we think and how we feel?\nMust there be a secret me I'm forced to hide?\nI won't pretend that I'm someone else for all time\nWhen will my reflection show who I am inside?\nWhen will my reflection show who I am inside?",
-      "plays": 0,
-      "likes": 0,
-      "dislikes": 0
+      "plays": 1,
+      "likes": 1,
+      "dislikes": 2
     },
     {
       "id": 6,
@@ -110,3 +118,14 @@
     }
   ]
 }
+
+song_data[:songs].each do |song|
+  Song.create(title: song[:title], singer: song[:singer], lyrics: song[:lyrics])
+end
+
+30.times do
+  user = User.create()
+  Song.all.each do |song|
+    UserSongDatum.create(user: user, song: song, plays: 0, likes: 0, dislikes: 0)
+  end
+end
