@@ -27,6 +27,10 @@ class UserSongDataController < ApplicationController
 
   private
 
+  def get_user_song_datum
+    UserSongDatum.find_by(:user_id => params[:user_id], :song_id => params[:song_id])
+  end
+
   def get_users_songs
     Song.select("songs.id, songs.title, songs.singer, songs.lyrics,
       user_song_data.plays, user_song_data.likes, user_song_data.dislikes")
