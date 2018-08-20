@@ -1,11 +1,11 @@
 README
 ======
 
-Below are the instructions copy pasted from the primary repo: `https://github.com/hysan/react-karaoke-challenge`
+Below are the instructions copy pasted from the primary repo: `https://github.com/learn-co-curriculum/react-karaoke-challenge`
 
 ## Setup
 
-- Clone this repository in a different directory: `https://github.com/hysan/react-karaoke-challenge-backend`
+- Clone this repository in a different directory: `https://github.com/learn-co-curriculum/react-karaoke-challenge-backend`
 - `cd` into it.
 - Run `bundle install` to install your dependencies.
 - Run `rails db:create rails db:migrate rails db:seed` to create and seed your database.
