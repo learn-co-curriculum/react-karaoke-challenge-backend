@@ -27,6 +27,7 @@ class Filter extends Component {
   // }
 
   render() {
+    console.log(this.props)
     return (
       <div className="filter">
         <label htmlFor="title-filter">Title: </label>

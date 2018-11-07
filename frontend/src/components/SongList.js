@@ -12,7 +12,7 @@ const SongList = ({songs}) => {
           <th>Singer</th>
           <th>▶</th>
         </tr>
-        {songs.map(song => <Song key={song.id} song={song} />)}
+          {songs.map(song => <Song key={song.id} song={song} />)}
         <Filter/>
       </tbody>
     </table>
